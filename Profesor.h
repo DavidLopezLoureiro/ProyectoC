@@ -16,7 +16,9 @@ typedef struct{
 
 	char DNI;
 	char nombre;
-	Asignatura Asignatura;
+	Asignatura Asignatura1;
+	Asignatura Asignatura2;
+	Asignatura Asignatura3;
 
 }Profesor;
 

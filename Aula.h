@@ -9,12 +9,13 @@
 #define AULA_H_
 
 #include "Asignatura.h"
+#include "Profesor.h"
+#include "Dia.h"
 #include <stdio.h>
 
 typedef struct{
 
 	char codigo;
-	Asignatura asignatura;
 
 }Aula;
 
