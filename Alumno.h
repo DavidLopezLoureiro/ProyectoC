@@ -8,8 +8,9 @@
 #ifndef ALUMNO_H_
 #define ALUMNO_H_
 
-
 #include <stdio.h>
+#include <stdlib.h>
+
 
 typedef struct{
 

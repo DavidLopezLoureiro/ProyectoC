@@ -10,12 +10,14 @@
 
 #include "Asignatura.h"
 #include "Profesor.h"
-#include "Dia.h"
 #include <stdio.h>
+#include <stdlib.h>
+
 
 typedef struct{
 
 	char codigo;
+	Asignatura ocupadapor[5][6];
 
 }Aula;
 

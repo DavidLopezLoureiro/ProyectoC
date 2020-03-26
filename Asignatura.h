@@ -10,8 +10,10 @@
 
 
 
-#include "Profesor.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include "Profesor.h"
+
 
 typedef struct{
 
@@ -20,7 +22,7 @@ typedef struct{
 	int creditos;
 	char carrera;
 	int curso;
-	Profesor profesor;
+	Profesor profe;
 
 }Asignatura;
 

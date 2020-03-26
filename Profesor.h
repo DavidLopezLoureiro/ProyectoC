@@ -9,16 +9,14 @@
 #define PROFESOR_H_
 
 
-#include "Asignatura.h"
+
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct{
 
 	char DNI;
 	char nombre;
-	Asignatura Asignatura1;
-	Asignatura Asignatura2;
-	Asignatura Asignatura3;
 
 }Profesor;
 
