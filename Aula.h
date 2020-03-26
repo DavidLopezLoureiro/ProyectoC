@@ -17,9 +17,16 @@
 typedef struct{
 
 	char codigo;
+	int tamanyoMax;
 	Asignatura ocupadapor[5][6];
 
 }Aula;
 
+void reserva (Asignatura *puntero[5][6], int dia, int hora);
+void quitaReserva(Asignatura *puntero[5][6], int dia, int hora);
+
+// Método de visualización de horarios C++
+// Método de visualizacíon de reservas C++
+// Método de visualización de clasesLibres C++
 
 #endif /* AULA_H_ */
