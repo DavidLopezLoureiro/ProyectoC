@@ -26,6 +26,6 @@ void quitaReserva(Asignatura *puntero[5][6], int dia, int hora);
 
 // Método de visualización de horarios C++
 // Método de visualizacíon de reservas C++
-// Método de visualización de clasesLibres C+++
+// Método de visualización de clasesLibres C++
 
 #endif /* AULA_H_ */
