@@ -2,9 +2,8 @@
 
 #define MAX_NUM 10
 
-int main(void)
-{
 
+void escribirfichero(){
 	FILE* f;
         int c;
 
@@ -19,5 +18,4 @@ int main(void)
 	//cerrar fichero
 	fclose(f);
 
-	return 0;
 }

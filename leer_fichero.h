@@ -2,7 +2,7 @@
 
 #define MAX_NUM 10
 
-int main(void)
+void leerfichero()
 {
 
 	FILE* f;
@@ -25,6 +25,6 @@ int main(void)
 
 	printf("El fichero tiene %i líneas\n", num_lines);
 
-	return 0;
+
 }
 
