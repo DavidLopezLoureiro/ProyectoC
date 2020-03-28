@@ -7,5 +7,16 @@
 
 
 #include "Aula.h"
+#include "Asignatura.h"
+void reserva (Asignatura *puntero[5][6], int dia, int hora, Asignatura asig){
+
+
+	if(puntero[dia][hora]==NULL){
+	*puntero[dia][hora]=asig;
+	}
+	else{
+	printf("Ocupada");
+	}
+}
 
 
