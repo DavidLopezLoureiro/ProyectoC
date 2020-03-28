@@ -21,8 +21,8 @@ typedef struct{
 
 }Aula;
 
-void reserva (Asignatura *puntero[5][6], int dia, int hora);
-void quitaReserva(Asignatura *puntero[5][6], int dia, int hora);
+void reserva (Asignatura *puntero[5][6], int dia, int hora, Asignatura asig);
+void quitaReserva(Asignatura *puntero[5][6], int dia, int hora, Asignatura asig);
 
 // Método de visualización de horarios C++
 // Método de visualizacíon de reservas C++
