@@ -8,7 +8,7 @@
 #include "Asignatura.h"
 
 
-#define MAX_LINE
+#define MAX_LINE 10
 
 
 
