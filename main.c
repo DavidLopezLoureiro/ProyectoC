@@ -37,6 +37,9 @@ void clearIfNeeded(char *str, int max_line)
 
 int main() {
 
+	printf("1. Introducir asignatura en aula \n");
+
+
 	Profesor felipe;
 
 	felipe.nombre = "Felipe";
