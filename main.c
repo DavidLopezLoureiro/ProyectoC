@@ -14,7 +14,7 @@
 
 void clearIfNeeded(char *str, int max_line)
 	{
-		// Limpia los caracteres de m·s introducidos
+		// Limpia los caracteres de mas introducidos
 		if ((strlen(str) == max_line-1) && (str[max_line-2] != '\n'))
 			while (getchar() != '\n');
 	}
